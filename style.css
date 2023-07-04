@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #212529;
+}
+.content {
+  font-family: "Send Flowers", cursive;
+  font-weight: 600;
+  background-color: #f4f2e7;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  margin-top: 12%;
+  border-radius: 3%;
+  padding-top: 15px;
+}
+
+.content2 {
+  font-family: "Send Flowers", cursive;
+  font-weight: 600;
+  background-color: #f4f2e7;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  margin-top: 12%;
+  border-radius: 0%;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button {
+  border: 0;
+  border-radius: 0.25rem;
+  font-family: "Send Flowers", cursive;
+  font-weight: 600;
+  background-color: #ff4747;
+  font-size: 18px;
+  color: #ecf2f4;
+  padding: 3px;
+  margin: 5px;
+}
+
+#title {
+  font-size: 35px;
+  text-align: center;
+  text-decoration: underline;
+  color: #ff4747;
+}
+
+.fontText {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 22px;
+  color: #ff4747;
+  padding-bottom: 20px;
+}
+
+.btncontainer {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 426px) {
+  .content {
+    width: 437px;
+  }
+}
